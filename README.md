@@ -14,10 +14,10 @@ docker run --rm -d -p 5000:5000 --name html-injection -t html-injection
 
 ## Examples
 ### 1) Simple HTML Injection
-Click the "Click to enter your name" button and insert a XSS test alert script.
+Click the "Click to enter your name" button and insert some simple HTML tags.
 
 ```
-<script>alert("XSS Test")</script>
+<h1>Plumpmonkey</h1>
 ```
 
 ### 2) Defacement of the page
