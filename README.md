@@ -9,7 +9,7 @@ docker build -t html-injection .
 
 ## Usage
 ```
-docker run -d -p 5000:5000 --name html-injection -t html-injection
+docker run --rm -d -p 5000:5000 --name html-injection -t html-injection
 ```
 
 ## Examples
